@@ -4,7 +4,6 @@ import java.util.*;
 /*
     걸린시간:   53분 33초
     문제점:    처음에 생각해 낸 방법이 과연 맞는지 미리 천천히!!생각해보자... 항상 같은실수하네...
-
  */
 
 class Node implements Comparable<Node>{
