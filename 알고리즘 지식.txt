@@ -1,0 +1,30 @@
+String compareTo
+
+- str1.compareTo(str2)
+- 두 단어 사전순으로 비교 : 1 - 2 = -1
+
+Integer.compare(this.eng, other.eng);
+
+int = 20억
+long = 900경
+
+1초에 2000만번 연산 가능//??
+
+
+시간복잡도: 1초 1억
+ex. for문 O(N), 이중 for문인 경우 O(N^2)
+* 1초가 걸리는 입력의 크기
+- O(1)
+- O(logN)- O(N) : 1억
+- O(nLogN): 5백만
+- O(N^2) : 1만
+- O(N^3) : 500
+- O(2^N) : 20
+- O(N!): 10
+
+
+출처: https://dev-ahn.tistory.com/10 [Developer Ahn]
+
+bfs dfs 사용 유리한 경우 정리하기
+Arrays.binarysearch, Collections.binarysearch 정리하기
+- 둘다 반환하는건 찾은 키의 인덱스가 아니라 위치: 인덱스 + 1
